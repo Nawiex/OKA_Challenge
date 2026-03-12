@@ -1,6 +1,6 @@
 import { test, expect, Dialog } from '@playwright/test';
 import { LoginPage } from '../../pages/LoginPage';
-import { SignUpPage } from '../../pages/SignupPage';
+import { SignUpPage } from '../../pages/SignUpPage';
 // Importamos la data de prueba desde un archivo externo para aislar la data lógica del código
 import userData from '../../data/users.json';
 
