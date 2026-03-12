@@ -53,7 +53,7 @@ El framework fue diseñado teniendo en cuenta las mejores prácticas de automati
 
 1. Clonar el repositorio:
 ```bash
-   git clone [TU_URL_DEL_REPOSITORIO]
+   git clone [https://github.com/Nawiex/OKA_Challenge.git](https://github.com/Nawiex/OKA_Challenge.git)
    cd oka-automation-challenge
 ```
 2. Instalar las dependencias de Node:
