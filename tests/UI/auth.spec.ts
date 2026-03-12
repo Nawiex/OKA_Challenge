@@ -1,17 +1,17 @@
 import { test, expect, Dialog } from '@playwright/test';
 import { LoginPage } from '../../pages/LoginPage';
-import { SignupPage } from '../../pages/SignupPage';
+import { SignUpPage } from '../../pages/SignupPage';
 // Importamos la data de prueba desde un archivo externo para aislar la data lógica del código
 import userData from '../../data/users.json';
 
 test.describe('Flujos de Autenticación', () => {
     let loginPage: LoginPage;
-    let signupPage: SignupPage;
+    let signupPage: SignUpPage;
 
     test.beforeEach(async ({ page }) => {
         // Inicializamos los Page Objects de forma centralizada para mantener el principio DRY
         loginPage = new LoginPage(page);
-        signupPage = new SignupPage(page);
+        signupPage = new SignUpPage(page);
         await page.goto('/');
     });
 
